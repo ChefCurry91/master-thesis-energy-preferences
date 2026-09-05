@@ -1,10 +1,9 @@
-# Energy Preferences and Value Orientations
+# Value-Based Determinants of Wind Energy Acceptance and Relative Energy Preferences in Switzerland
 
 ## Overview
 
 This project examines the relationship between **value orientations and energy preferences in Switzerland**, focusing on wind energy acceptance and relative preferences between wind and nuclear power.
 
-The objective is to investigate whether underlying value orientations are associated with individual preferences for different energy technologies.
 
 The project was developed as part of my **Master's thesis in Applied Economics** at the University of Neuchâtel.
 
@@ -25,7 +24,7 @@ The analysis combines:
 * Probit models
 * Ordered probit models
 * Econometric analysis of value orientations and energy preferences
-* Discrete choice experiment framework
+
 
 ## Main Results
 
