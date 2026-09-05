@@ -1,37 +1,56 @@
-Master Thesis — Energy Preferences and Value Orientations
+# Energy Preferences and Value Orientations
 
-This repository contains the R code developed for my Master's thesis in Applied Economics at the University of Neuchâtel.
+## Overview
 
-The study examines the relationship between value orientations and energy preferences in Switzerland, focusing on wind energy acceptance and relative preferences between wind and nuclear power.
+This project examines the relationship between **value orientations and energy preferences in Switzerland**, focusing on wind energy acceptance and relative preferences between wind and nuclear power.
 
-Research
+The objective is to investigate whether underlying value orientations are associated with individual preferences for different energy technologies.
 
-The analysis draws on Cultural Theory and Schwartz's theory of basic human values to investigate whether underlying value orientations are associated with preferences for different energy technologies.
+The project was developed as part of my **Master's thesis in Applied Economics** at the University of Neuchâtel.
 
-Using data from the Swiss Household Energy Demand Survey (SHEDS), the study examines two dimensions of energy preferences:
+## Research Framework
 
-Acceptance of wind energy
-Relative preferences between wind and nuclear power
+The analysis draws on **Cultural Theory** and **Schwartz's theory of basic human values** to examine the value-based determinants of energy preferences.
 
-The analysis finds that orientations related to collective welfare are generally associated with stronger wind energy acceptance and preferences, while orientations toward personal interests and success are associated with stronger relative preferences for nuclear power.
+Using data from the **Swiss Household Energy Demand Survey (SHEDS)**, the study examines two dimensions of energy preferences:
 
-Methods
-Probit and ordered probit models
-Survey data analysis
-Econometric modelling
-Descriptive and subgroup analysis
+* Acceptance of wind energy
+* Relative preferences between wind and nuclear power
 
-Code
+## Methodology
 
-The repository contains the main R scripts used for the empirical analysis:
+The analysis combines:
 
-probit_model_OFEN_v4.R — econometric analysis of energy preferences
-Descriptive_analysis_graph.R — descriptive analysis and visualisations
-Data
+* Descriptive analysis of energy preferences across population subgroups
+* Probit models
+* Ordered probit models
+* Econometric analysis of value orientations and energy preferences
+* Discrete choice experiment framework
 
-The underlying survey data are not included in this repository due to data access restrictions.
+## Main Results
 
-Author
+The results show that **collective welfare orientations** are generally associated with stronger wind energy acceptance and preferences, while orientations toward **personal interests and success** are associated with stronger relative preferences for nuclear power.
 
-Fabio Cappadona
-MSc Applied Economics — University of Neuchâtel
+Environmental and collective welfare orientations emerge among the strongest predictors of wind energy preferences.
+
+In contrast, **wealth and authority** are primarily associated with relative preferences for nuclear power rather than with wind energy acceptance.
+
+A persistent regional pattern in **Romandie**, not accounted for by the value orientations examined in the study, points to additional value-based or contextual factors not captured by the framework.
+
+## Data
+
+The underlying **SHEDS survey data are not included** in this repository due to data access restrictions.
+
+## Repository Contents
+
+* `probit_model_OFEN_v4.R` — R code for the econometric analysis
+* `Descriptive_analysis_graph.R` — R code for descriptive analysis and visualisations
+
+## Tools
+
+**R · Econometrics · Survey Data Analysis · Probit Models · Ordered Probit Models · Data Visualisation**
+
+## Author
+
+**Fabio Cappadona**
+
